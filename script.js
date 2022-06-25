@@ -1,8 +1,8 @@
-var yourName, height, country;
-yourName = prompt("Enter your Name");
-height = prompt("State your Height");
-country = prompt("State your Country");
+// var yourName, height, country;
+var yourName = ("Enyi Munnachi");
+var height = (" 5'9 ft ");
+var country = ("Nigeria");
 
-document.write(`${yourName}
-${height}
-${country}`);
+document.write(`I am ${ yourName} <br>
+I am ${height} tall <br> 
+ I come from ${country}`);
